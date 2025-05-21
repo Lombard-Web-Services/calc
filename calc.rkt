@@ -11,10 +11,6 @@
                    [height 400]))
 
 ;; === Affichage ===
-;; Utilisation de text-field% comme demandé.
-;; Note : text-field% ne supporte PAS la personnalisation de police/couleur de texte interne
-;; comme editor% le ferait. Le style TI-82 (vert sur fond noir) ne sera pas appliqué
-;; directement à la zone de texte elle-même.
 (define display
   (new text-field%
        [parent frame] ;; Le parent est de nouveau la frame directement
