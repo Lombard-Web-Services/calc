@@ -2,7 +2,6 @@
 ;; par Thibaut LOMBARD (Lombard Web)
 (require racket/math
          (only-in racket/string string-replace))
-         ;; racket/gui/extra n'est plus requis car layered-panel% est retiré
 
 ;; === Fenêtre principale ===
 (define frame (new frame%
